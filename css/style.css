@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cardo', serif;
+}
+
+.main-nav {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #94B3C8;
+}
+
+.main-nav ul li {
+    float: left; 
+    padding: 5px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+
+}
+
+/* This begins the main navigation bar styling */
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav a:hover { 
+    border: 3px solid black;
+}
+
+.main-banner {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: filter .5s;
+}
+
+.main-banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.main-banner:hover {
+    filter: brightness(130%);
+}
+
+.main-banner:hover h1 {
+    opacity: 1;
+}
+.index-banner {
+    background-image: url("../images/bryantparktrees.jpeg");
+    
+}
+
+.shopping-banner {
+    background-image: url("../images/shopping.jpg");
+}
+
+.restaurant-banner {
+    background-image: url("../images/restaurant.jpg");
+}
+
+/* This is the left navigation menu on the home page */
+
+.left-side {
+    width: 25%;
+    background-color: #d7dce8;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}
+
+/* Below starts main content styling on the home page */
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.coffee {
+    background-image: url("../images/coffee.jpg");
+    
+}
+
+.restaurant {
+    background-image: url("../images/bryantparkgrill.jpg");
+} 
+
+.quick {
+    background-image: url("../images/panear.jpg");
+}
+
+.dessert {
+    background-image: url("../images/MK.jpg");
+}
+
+.movie {
+    background-image: url("../images/movienight.jpg");
+}
+
+.juggling {
+    background-image: url("../images/juggling.jpg");
+}
+
+.market {
+    background-image: url("../images/market.jpg");
+}
+
+.pingpong {
+    background-image: url("../images/pingpong.jpg");
+}
+
+.iceskate {
+    background-image: url("../images/iceskate.jpg");
+}
+
+.side-item {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.side-item img {
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer positioning */
+
+footer {
+    clear: both;
+}
+
+.departmentstore-banner {
+    background-image: url("../images/departmentstore.jpg");
+}
+
+.specialitystore-banner {
+    background-image: url("../images/jeans.jpg");
+}
+
+.accessories-banner {
+    background-image: url("../images/cc.jpg");
+}
+
+.beauty-banner {
+    background-image: url("../images/beauty.jpg");
+}
+
+.timessquare {
+    background-image: url("../images/timessquare.jpg");
+}
+
+.fashionweek {
+    background-image: url("../images/fashionweek.jpg");
+}
+
+.publiclibrary {
+    background-image: url("../images/nypl.jpg");
+}
+
+.attractions-banner {
+    background-image: url("../images/sightseeing.jpg");
+}
+
+/* We're almost done! yay! */
